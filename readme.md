@@ -1,6 +1,6 @@
 # Chrome DevTools Protocol
 
-Repository contains the AutoRest configuration for generating C# Chrome DevTools Protocol Library from the OpenAPI specification.
+Repository contains the AutoRest configuration for generating C# Chrome DevTools Protocol Library from the [OpenAPI specification](https://github.com/oguzhane/chrome-devtools-protocol-specs).
 
 > see https://aka.ms/autorest
 
