@@ -1,6 +1,6 @@
 # Chrome DevTools Protocol
 
-Contains the configuration for generating Chrome DevTools Protocol from the OpenAPI specification.
+Repository contains the configuration for generating C# Chrome DevTools Protocol Library from the OpenAPI specification.
 
 > see https://aka.ms/autorest
 
