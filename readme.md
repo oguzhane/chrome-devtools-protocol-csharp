@@ -77,6 +77,708 @@ input-file:
   - ./openapi-specs/WebAuthn.events.json
   - ./openapi-specs/WebAuthn.types.json
 
+directive:
+  - from: Accessibility.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Accessibility.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Animation.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Animation.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Audits.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Audits.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: BackgroundService.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: BackgroundService.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Browser.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Browser.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Cast.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Cast.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Console.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Console.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: CSS.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: CSS.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Database.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Database.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Debugger.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Debugger.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DeviceAccess.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DeviceAccess.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DOM.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DOM.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DOMStorage.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: DOMStorage.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Emulation.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Fetch.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Fetch.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: HeapProfiler.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Input.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Input.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Inspector.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: IO.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: LayerTree.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: LayerTree.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Log.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Log.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Media.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Media.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Network.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Network.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Overlay.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Page.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Page.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Performance.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Performance.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: PerformanceTimeline.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: PerformanceTimeline.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Preload.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Preload.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Profiler.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Profiler.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Runtime.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Runtime.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Security.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Security.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: ServiceWorker.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: ServiceWorker.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Storage.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Storage.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Target.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Target.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Tethering.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Tracing.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: Tracing.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: WebAudio.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: WebAudio.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: WebAuthn.events.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+  - from: WebAuthn.types.json
+    where: $.components.schemas
+    transform: >
+      for (var path in $)
+      {
+        $[path]["x-accessibility"] = "public"
+        $[path]["x-csharp-formats"] = "json"
+        $[path]["x-csharp-usage"] = "model,input,output,converter"
+      }
+
+
 generation1-convenience-client: true
 namespace:  Chrome.DevTools
 output-folder: ./src/Generated
@@ -94,4 +796,7 @@ csharp:
 
 modelerfour:
   use-model-namespace: true
+  # https://github.com/Azure/autorest/blob/f1e3be9399c5c8d9074ded877bbd10816954c891/packages/extensions/modelerfour/readme.md?plain=1#L58
+  lenient-model-deduplication: true
+  resolve-schema-name-collisons: true
 ```

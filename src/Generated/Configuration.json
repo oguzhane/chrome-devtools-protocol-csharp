@@ -1,0 +1,10 @@
+{
+  "OutputFolder": ".",
+  "Namespace": "Chrome.DevTools",
+  "LibraryName": "Chrome.DevTools",
+  "SharedSourceFolders": [
+    "..\\..\\Generator.Shared",
+    "..\\..\\Azure.Core.Shared"
+  ],
+  "generation1-convenience-client": true
+}
